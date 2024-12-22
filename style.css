@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+.cloud{
+    width: 100%;
+    height: 529px;
+}
+.cloud img{
+    position: relative;
+    left: 20%;
+    top: 85px;
+}
+.registration{
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 90px;
+}
+.sign-up{
+    width: 50%;
+    height: 530px;
+}
+ .sign-up b{
+    font-size: 32px;
+}
+/*.sign-up p{
+    color: gray;
+}
+.full-name{
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+.full-name input{
+    width: 200%;
+    height: 40px;
+    border-radius: 10px;
+}
+.Email-id{
+    position: relative;
+    top: 220px;
+    right: 122px;
+}
+.Email-id input{
+    width: 200%;
+    height: 40px;
+    border-radius: 10px;
+}
+.Password{
+    position: relative;
+    top: 290px;
+    right: 287px;
+}
+.Password input{
+    width: 170%;
+    height: 40px;
+    border-radius: 10px;
+}
+.Password img{
+    position: relative;
+    bottom: 33px;
+    left: 153%;
+} */
+
