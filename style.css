@@ -1,8 +1,15 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    font-family: inter;
 }
 body{
+    overflow-x: hidden;
+}
+.mainBox{
+    display: flex;
+}
+.newPage{
     display: flex;
 }
 .cloud{
@@ -15,55 +22,334 @@ body{
     top: 85px;
 }
 .registration{
-    background-color: aqua;
-    width: 100%;
-    height: 500px;
+    /* background-color: aqua; */
+    width: 70%;
+    height: 442px;
     position: relative;
     top: 90px;
 }
 .sign-up{
     width: 50%;
-    height: 530px;
+    height: 560px;
 }
  .sign-up b{
     font-size: 32px;
+    position: relative;
+    top: 15px;
 }
-/*.sign-up p{
+.sign-up p{
     color: gray;
+    position: relative;
+    top: 15px;
 }
 .full-name{
     position: relative;
-    top: 150px;
-    left: 40px;
+    bottom: 100%;
+    right: 0px;
 }
 .full-name input{
-    width: 200%;
+    width: 50%;
     height: 40px;
     border-radius: 10px;
 }
 .Email-id{
     position: relative;
-    top: 220px;
-    right: 122px;
+    bottom: 95%;
+    right: 0px;
 }
 .Email-id input{
-    width: 200%;
+    width: 50%;
     height: 40px;
     border-radius: 10px;
 }
 .Password{
     position: relative;
-    top: 290px;
-    right: 287px;
+    bottom: 88%;
+    right: 0px; 
 }
 .Password input{
-    width: 170%;
+    width: 50%;
     height: 40px;
     border-radius: 10px;
 }
 .Password img{
     position: relative;
-    bottom: 33px;
-    left: 153%;
-} */
+    top: 8px;
+    right: 5%;
+}
+.login{
+    width: 181px;
+    height: 45px;
+    position: relative;
+    bottom: 80%;
+    right: 3px;
+}
+.login button{
+    width: 180%;
+    height: 100%;
+    background-color:  #f8d23a;
+    font-size: 19px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #edd57e;
+}
+.google{
+    padding: 15px;
+    display: flex;
+    width: 277px;
+    height: 6%;
+    position: relative;
+    left: 9px;
+    bottom: 77%;
+    gap: 20px;
+    /* border: 1px solid #DEDEDE; */
+    background-color: #FEFEFE;
+    box-shadow: 0px 1px 2px 0px #1018280D;
 
+}
+.google img{
+    position: relative;
+    top: 3px;
+    left: 53px;
+}
+.google span{
+    position: relative;
+    /* top: 3px; */
+    left: 45px;
+    font-size: 18px;
+}
+.termsAndCnditons{
+    width: 235px;
+    display: flex       ;
+    gap: 10px;
+    position: relative;
+    bottom: 73%;
+    left: 40px;
+}
+.account{
+    width: 242px;
+    display: flex;
+    position: relative;
+    bottom: 66%;
+    left: 45px;
+    cursor: pointer;
+}
+/* welcome page */
+/* .navigation{
+    display: flex;
+    gap: 20%;
+    padding: 16px 80px 16px 80px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    justify-content: space-between;  
+    border-bottom: 1px solid #CBCBCB
+}
+.dashboard{
+    padding: 0px 100px 0px 112px;
+    position: relative;
+    left: 133%;
+    display: flex;
+    gap: 20px;
+}
+.dashboard span{
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+.dashboard img{
+    position: relative;
+    left: 40px;
+    top: 5px;
+} */
+.nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 20px 40px;
+    border-bottom: 1px solid #CBCBCB;
+    align-items: center;
+}
+.navigation{    
+    width: 200px;
+    height: 30px;
+}
+.dashboard{
+    height: 45px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 68%;
+    align-items: center;
+}
+/* .dashboard img{
+    position: absolute;
+    left: 120%;
+} */
+.startQuiz{
+    /* width: 1440;
+    height: 819; */
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.time{
+    display: flex;
+    gap: 10px;
+    width: 9;
+    height: 9;
+    top: 1.5px;
+    left: 1.5px;
+    /* border-width: 1px; */
+}
+.time p{
+    width: 38;
+    height: 14;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0%;
+    color: #8E8E93;    
+}
+li {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0%;
+    color: #8E8E93;
+}
+.startQuizContainer{
+    width: 77%;
+    height: 440px;
+    gap: 40px;
+    border-radius: 11.84px;
+    padding: 60px;
+    background: #FEFEFE;
+    /* background-color: black; */
+    box-shadow: 0px 20px 40px 0px #1C1C1E1A;
+    position: relative;
+    top: 41px;
+    left: 9%;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    border-radius: 12.17px;
+    background: #C7C7CC;
+}
+.lines{
+    width: 40%;
+    height: 90px;
+    padding: 20px 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lines h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.lines p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #8E8E93;
+}
+.startQuiz{
+    width: 360px;
+    height: 43px;
+    gap: 4px;
+    /* padding:20px 305px; */
+}
+.startQuiz button{
+    background: #F3BD00;
+    width: 360px;
+    height: 45px;
+    /* gap: 4px; */
+    padding: 8px 24px 12px 24px;
+    border-radius: 100px;
+    font-size: 20px;
+    position: relative;
+    left: 105%;
+    bottom: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #edd57e;
+}
+
+
+/* Questions page */
+.questionSets{
+    padding: 25px 40px 30px 25px;
+}
+.questionSets h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75%;
+}
+.progressContainer{
+    width: 100%;
+    height: 15px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    /* color: #f8d23a; */
+}
+.progressBar{
+    width: 0%;
+    height: 100%;
+    background-color: #ffcc00;  
+    border-radius: 5px;
+    transition: width 0.2s;
+}
+#displayQuestion{
+    width: 100%;
+    position: relative;
+    top: 45px;
+    font-size: 30px;
+}
+.options{
+    height: 233px;
+    padding: 0px 0px 20px 5px;
+}
+.options li{
+    /* width: 100px; */
+    height: 40px;
+    position: relative;
+    top: 70px;
+    left: 22px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: black;
+}
+.nextQuestion{
+    width: 285px;
+    height: 38px;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    border: none;
+    border-color: white;
+    background: white;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+    }
+
+}

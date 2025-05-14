@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="navigation">
+            <img src="images/Vector (1).svg" alt="">
+        </div>
+        <div class="dashboard">
+            <!-- <p>Edit Quiz</p>
+            <p>All Quiz</p> -->
+            <img src="images/Avatar.svg" alt="">
+        </div>
+    </div>
+
+    <div class="questionSets">
+        <h1 id="newQuestion">Question 1 of 10</h1>
+        <p id="next"></p>
+
+        <div class="progressContainer">
+            <div class="progressBar">
+                
+            </div>
+        </div>
+
+        <div id="displayQuestion">
+            <!-- Questions and options will be displayed here -->
+        </div>
+
+        <ul id="options" class="options">
+                <li >ans1</li>
+                <li>ans2</li>
+                <li>ans3</li>
+                <li>ans4</li>
+        </ul>
+        
+        <button class="nextQuestion" onclick="nextButton()">Submit & Continue &#8594</button>
+    </div>
+
+    <script src="./question.js"></script>
+</body>
+</html>

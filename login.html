@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="mainBox">
+    <div class="newPage">
     <div class="cloud">
         <img src="images/30576698_7718866 1.svg" alt="">
     </div>
     <div class="registration">
          <div class="sign-up">
-            <b>Signup</b>
-            <p>Sign Up to Join</p>
-        </div>
-        <div class="full-name">
-            <p>Full Name <span style="color: red;">*</span></p>
-            <input type="text" placeholder="Full Name" id="userName">
+            <b>Login</b>
+            <p>Please enter your details below</p>
         </div>
         <div class="Email-id">
             <p>Email <span style="color: red;">*</span></p>
@@ -35,24 +29,17 @@
             <img src="images/Frame 1160445652.svg" alt="">
         </div>
         <div class="login">
-            <button id="sign-up-button" onclick="signup()">Signup</button>
+            <button id="login-button" onclick="login()">Login</button>
         </div>
         <div class="google">
             <img src="images/devicon_google.svg" alt="">
             <span>Sign up with Google</span>
         </div>
-        <div class="termsAndCnditons">
-            <input type="checkbox"  id="checkedBox">
-            <p>I accept <span style="color: blue;">Terms & Conditions</span></p>
-        </div>
         <div class="account">
-            <p>Have an account?</p> 
-            <span id="output" style="color: blue;"onclick="switchToLogin()">Log in ?</span>
-        </div>
+            <p>Don't have an account?</p> 
+            <span style="color: blue;" onclick="backToLogin()">Sign up?</span>
     </div>
     </div>
-
     <script src="script.js"></script>
 </body>
-
 </html>
